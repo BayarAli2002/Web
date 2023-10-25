@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+
+<title> Form </title>
+
+
+</head>
+
+
+<body style="background-color:cyan" align="center">
+
+<p style="color:red; font-size:30px"> <b>personal detalis</b> </p>
+<br>
+<br>
+<form action="">
+<label for="fname"> First name: </label>
+<input type="text" id="fname" name="fname" autofocus placeholder="please enter the first name"> 
+<br>
+<br>
+<label for="lname"> Last name: </label>
+<input type="text" id="lname" name="lname" autofocus autocomplete="on" placeholder="plaese enter the last name"> 
+
+<br>
+<br>
+enter a date before 2008-01-01: <input type="date" name="date1" max="2008-01-01">
+<br>
+enter a date after 2002-01-01: <input type="date" name="date1" min="2002-01-01">
+<br>
+<br>
+Quantity between 1 and 10:  <input type="number" min="1" max="10"> 
+<br>
+<br>
+Gender: <input type="radio" name="date3" value="0"> Male: <input type="radio" name="date3" value="1"> female
+<br>
+<br>
+<p style="color:red; font-size:30px"> <b>Educational Qualification<b> </p>
+<br>
+<input list="browsers">
+<datalist id="browsers">
+<option value="bayar">
+<option value="ali">
+
+</datalist>
+<br>
+<br>
+
+Gender: <input type="checkbox" name="date3"> Male: <input type="checkbox" name="date3" checked> female
+
+<br>
+<br>
+
+<input type="submit" value="submit">
+
+</form>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
